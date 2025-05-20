@@ -1,0 +1,94 @@
+.main-header {
+  background: #111;
+  color: #fff;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 2rem;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem 0.5rem 2rem;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+.logo-custom {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: none;
+  font-size: 1rem;
+  background: #222;
+  color: #fff;
+  outline: none;
+  max-width: 400px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.theme-toggle {
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+.theme-toggle:hover {
+  background: #444;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.5rem 0 0.5rem 0;
+  background: #111;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.85;
+  transition: opacity 0.2s, border-bottom 0.2s;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+}
+
+.header-nav a:hover {
+  opacity: 1;
+  border-bottom: 2px solid #fff;
+} 

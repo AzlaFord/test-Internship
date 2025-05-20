@@ -49,6 +49,19 @@
 .icon {
   font-size: 1.3rem;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+}
+
+.icon:hover {
+  opacity: 0.8;
+}
+
+.icon svg {
+  width: 24px;
+  height: 24px;
 }
 
 .theme-toggle {
